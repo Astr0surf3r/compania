@@ -7,6 +7,8 @@ Compania::Application.routes.draw do
 
   get "pages/contacto"
 
+  root :to => "pages#inicio"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
