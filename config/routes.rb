@@ -1,4 +1,12 @@
 Compania::Application.routes.draw do
+  get "pages/inicio"
+
+  get "pages/servicios"
+
+  get "pages/nosotros"
+
+  get "pages/contacto"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
